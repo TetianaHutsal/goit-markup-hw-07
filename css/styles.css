@@ -170,9 +170,95 @@ img {
   color: #404bbf;
 }
 
-.menu-open-btn {
-  display: flex;
+.open-mobmenu-bnt {
 }
+
+.close-mobmenu-btn {
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 32px;
+}
+
+.mobmenu {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 24px 24px 24px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mobmenu-list {
+}
+.mobmenu-list {
+  margin-bottom: 284px;
+}
+
+.mobmenu-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.mobmenu-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.link {
+}
+.active {
+}
+.mobmenu-address {
+}
+.mobmenu-address-list {
+}
+.mobmenu-adress-tel-item {
+  margin-bottom: 40px;
+}
+.mobmenu-address-tel-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--paragraph-filters);
+}
+
+.mobmenu-address-mail-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--paragraph-filters);
+}
+.mobmenu-adress-mail-item {
+  margin-bottom: 48px;
+}
+.mobmenu-soc-list {
+  display: flex;
+  gap: 56px;
+}
+.mobmenu-soc-item {
+  width: 40px;
+    height: 40px;
+}
+.mobmenu-soc-link {
+  width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(77, 90, 229, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color var(--time-transition-duration) var(--transition-timing-function);
+}
+/* .team-icons {
+} */
 
 /* _____Section 1 hero_____ */
 .hero {
@@ -286,6 +372,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 /* _____Section 3 products_____ */
@@ -1028,7 +1118,6 @@ img {
 
   .feature-paragraph {
     width: 356px;
-    height: 72px;
   }
   .team-tytle {
     margin-bottom: 64px;
@@ -1044,6 +1133,7 @@ img {
   .footer-container {
     flex-wrap: wrap;
     flex-direction: row;
+    padding-left: 108px;
   }
   .footer-logo-web {
     justify-content: flex-start;
@@ -1056,6 +1146,9 @@ img {
   }
   .form-email {
     flex-direction: row;
+  }
+  .form-input {
+    width: 264px;
   }
 }
 
@@ -1144,6 +1237,7 @@ img {
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 0;
+    padding-left: 15px;
   }
   .form-input {
     width: 264px;
@@ -1157,3 +1251,11 @@ img {
     gap: 24px;
   }
 }
+
+/* @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--bg-gradient), url(../images/people-office-2x.jpg);
+  }
+} */
