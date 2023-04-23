@@ -1,3 +1,4 @@
+
 // Шукаємо елементи в html розмітці
 const mobileMenu = document.querySelector('[data-menu]');
 const openMenuBtn = document.querySelector('[data-menu-open]');
@@ -8,8 +9,8 @@ const body = document.querySelector("body");
 // Функція, яка додає та знімає класи через toggle
 const toggleMenu = () => {
   const isMenuOpen =
-    mobileMenu.classList.toggle('visually-hidden');
-  body.classList.toggle("hut")
+    mobileMenu.classList.toggle('is-hidden');
+  body.classList.toggle("scroll")
 };
 // Кінець 2 блоку
 
@@ -21,6 +22,6 @@ closeMenuBtn.addEventListener('click', toggleMenu);
 // Close the mobile menu on wider screens if the device orientation changes
 window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
   if (!e.matches) return;
-  mobileMenu.classList.add('visually-hidden');
-  body.classList.remove('hut');
+  mobileMenu.classList.add('is-hidden');
+  body.classList.remove('scroll');
 });

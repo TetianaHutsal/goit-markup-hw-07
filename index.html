@@ -27,7 +27,11 @@
           <li class="header-item"><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
           <li class="header-item"><a class="header-link link" href="">Contacts</a></li>
         </ul>
-        <button class="open-mobmenu-bnt" data-menu-open type="button">O</button>
+        <button class="open-mobmenu-bnt" data-menu-open type="button">
+          <svg class="mobmenu-icon-open" width="32px" height="22px">
+            <use href="./images/icons.svg#icon-charm_menu"></use>
+          </svg>
+        </button>
       </nav>
       <!-- Navigation contacts -->
       <address class="header-address">
@@ -39,8 +43,12 @@
         </ul>
       </address>
     </div>
-    <div class="mobmenu" data-menu>
-      <button class="close-mobmenu-btn" data-menu-close type="button">X</button>
+    <div class="mobmenu is-hidden" data-menu>
+      <button class="close-mobmenu-btn" data-menu-close type="button">
+        <svg class="icon-closebtn" width="8px" height="8px">
+          <use href="./images/icons.svg#icon-closebtn"></use>
+        </svg>
+      </button>
       <nav>
         <ul class="mobmenu-list list">
           <li class="mobmenu-item"><a class="mobmenu-link link" href="./index.html">Studio</a></li>
