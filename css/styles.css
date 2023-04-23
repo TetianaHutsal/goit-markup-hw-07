@@ -221,8 +221,6 @@ img {
   transition: 250ms linear;
 }
 
-
-
 .mobmenu-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -242,11 +240,10 @@ img {
   color: var(--hover-color-link);
 }
 
-  .active-mob {
-    position: relative;
-    color: rgba(64, 75, 191, 1);
-  }
-
+.active-mob {
+  position: relative;
+  color: rgba(64, 75, 191, 1);
+}
 
 .mobmenu-adress-tel-item {
   margin-bottom: 40px;
@@ -258,7 +255,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #4D5AE5;
+  color: #4d5ae5;
   transition: color var(--time-transition-duration)
     var(--transition-timing-function);
 }
@@ -1146,7 +1143,6 @@ img {
   .team-list {
     width: 100%;
   }
-  
 }
 
 @media screen and (min-width: 768px) {
