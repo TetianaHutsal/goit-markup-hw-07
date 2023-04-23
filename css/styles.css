@@ -151,8 +151,8 @@ img {
 
 .header-address-link {
   font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: var(--paragraph-filters);
   transition: color var(--time-transition-duration)
     var(--transition-timing-function);
@@ -165,7 +165,6 @@ letter-spacing: 0.04em;
 .header-address-link:focus {
   color: #404bbf;
 }
-
 
 .open-mobmenu-bnt {
   display: flex;
@@ -182,7 +181,7 @@ letter-spacing: 0.04em;
 .mobmenu-icon-open {
   width: 32px;
   height: 22px;
-  stroke: #2E2F42;
+  stroke: #2e2f42;
 }
 
 .close-mobmenu-btn {
@@ -198,7 +197,6 @@ letter-spacing: 0.04em;
   transition-property: color, border, box-shadow, background;
   transition-duration: var(--time-transition-duration);
   transition-timing-function: var(--transition-timing-function);
-  
 }
 
 .close-mobmenu-btn:hover,
@@ -240,7 +238,7 @@ letter-spacing: 0.04em;
   text-transform: capitalize;
   color: #2e2f42;
   transition: color var(--time-transition-duration)
-  var(--transition-timing-function);
+    var(--transition-timing-function);
 }
 
 .mobmenu-link:hover,
@@ -253,7 +251,6 @@ letter-spacing: 0.04em;
 }
 .mobmenu-address {
 }
-
 
 .mobmenu-address-list {
 }
@@ -269,7 +266,7 @@ letter-spacing: 0.04em;
   text-transform: capitalize;
   color: var(--paragraph-filters);
   transition: color var(--time-transition-duration)
-  var(--transition-timing-function);
+    var(--transition-timing-function);
 }
 
 .mobmenu-address-mail-link {
@@ -280,7 +277,7 @@ letter-spacing: 0.04em;
   letter-spacing: 0.02em;
   color: var(--paragraph-filters);
   transition: color var(--time-transition-duration)
-  var(--transition-timing-function);
+    var(--transition-timing-function);
 }
 
 .mobmenu-address-tel-link:hover {
@@ -306,17 +303,18 @@ letter-spacing: 0.04em;
 }
 .mobmenu-soc-item {
   width: 40px;
-    height: 40px;
+  height: 40px;
 }
 .mobmenu-soc-link {
   width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: rgba(77, 90, 229, 1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color var(--time-transition-duration) var(--transition-timing-function);
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(77, 90, 229, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color var(--time-transition-duration)
+    var(--transition-timing-function);
 }
 
 .mobmenu-soc-link:hover {
